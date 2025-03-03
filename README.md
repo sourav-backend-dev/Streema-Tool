@@ -1,6 +1,3 @@
-Certainly! Here's an updated `README.md` that reflects the provided `manifest.json` file details:
-
-```markdown
 # Strema Content Tool Chrome Extension
 
 **Strema Content Tool** is a Chrome extension built using React.js and Vite. It enables [briefly describe what the extension does, e.g., enhancing content interaction, managing content on web pages, etc.].
@@ -98,14 +95,3 @@ Here are the available scripts in the project:
 - `build`: Builds the client for production using Vite.
 - `lint`: Lints the project using ESLint.
 - `preview`: Previews the built production version of the client.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-### Key Updates:
-1. **Manifest Details Section**: Added a section that explains key attributes from the `manifest.json` file, such as permissions, background scripts, content scripts, and side panel configuration.
-2. **Simplified Installation and Usage**: Focused on easy steps to set up, build, and install the extension in Chrome, while keeping everything aligned with your provided `manifest.json`.
-
-Feel free to update any placeholder text like the description or GitHub link to better match your project!
