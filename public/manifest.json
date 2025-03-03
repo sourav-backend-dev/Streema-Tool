@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "React Chrome Extension",
+  "version": "1.0.0",
+  "description": "A Chrome extension built using React.js and Vite.",
+  "permissions": ["storage", "activeTab", "scripting","sidePanel","tabs"],
+  "host_permissions": ["https://*/*"],
+  "side_panel": {
+    "default_path": "index.html"
+  },
+  "background": {
+    "service_worker": "assets/background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*/*"],
+      "js": ["assets/contentScript.js"],
+      "css": []
+    }
+  ],
+  "icons": {
+    "64": "logo.png"
+  }
+}
